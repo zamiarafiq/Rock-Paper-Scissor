@@ -1,0 +1,64 @@
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+
+/* Background */
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #7b2ff7, #f107a3);
+  color: #fff;
+  text-align: center;
+}
+
+/* Heading */
+h1 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+}
+
+/* Buttons */
+button {
+  font-size: 3rem;
+  margin: 10px;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s ease;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  backdrop-filter: blur(5px);
+}
+
+/* Hover Effect */
+button:hover {
+  transform: scale(1.15);
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+}
+
+/* Result Text */
+#result {
+  margin-top: 25px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* Score */
+#score {
+  margin-top: 10px;
+  font-size: 1.3rem;
+  color: #ffe6ff;
+  text-shadow: 0 0 8px rgba(255,255,255,0.7);
+}
